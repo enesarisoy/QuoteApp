@@ -1,7 +1,5 @@
 # Quote App
 
-<h3 align="left">Languages and Tools:</h3>
-
 ## Libraries and tools 🛠
 
 <li>Retrofit</li>
