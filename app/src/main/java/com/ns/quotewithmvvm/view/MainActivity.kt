@@ -10,7 +10,6 @@ import com.ns.quotewithmvvm.model.Quote
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private var quoteList: List<Quote> = listOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.toolbar.title = ""
         setSupportActionBar(binding.toolbar)
+
         binding.toolbar.setNavigationOnClickListener {
             binding.fragmentContainerView.findNavController()
                 .navigate(R.id.action_quoteFragment_to_savedFragment2)
