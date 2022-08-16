@@ -1,4 +1,5 @@
 # Quote App
+Quote app without mvvm. Here's the mvvm [version](https://github.com/enesarisoy/QuoteWithMvvm)
 
 ## Libraries and tools 🛠
 
